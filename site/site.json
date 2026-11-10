@@ -1,0 +1,145 @@
+{
+  "name": "Octavebytes",
+  "origin": "https://octavebytes.com",
+  "vars": {
+    "price": "18",
+    "ci_addon": "5",
+    "setup": "500",
+    "setup_agents": "20",
+    "trial_days": "7",
+    "hourly": "60",
+    "sales_email": "sales@octavebytes.com",
+    "support_email": "support@octavebytes.com",
+    "phone_us": "+1 855 681 4627",
+    "phone_pk": "+92 326 0376366",
+    "aws_marketplace_url": "https://aws.amazon.com/marketplace/pp/prodview-y2lqx6fblm4wo",
+    "hubspot_marketplace_url": "https://ecosystem.hubspot.com/marketplace/apps/octave-aws-connect-cti-connector-910760",
+    "booking_url": "https://meetings-na2.hubspot.com/itariq",
+    "docs_url": "https://octavebytes.github.io/Hubspot/"
+  },
+  "hubspot": {
+    "portalId": "9426463",
+    "formGuids": {
+      "trial": "51c2996b-0b12-465c-948a-bad78ed4bfa9",
+      "estimate": "51c2996b-0b12-465c-948a-bad78ed4bfa9",
+      "aws": "51c2996b-0b12-465c-948a-bad78ed4bfa9",
+      "regulated": "2896feb8-5491-4b88-90c7-444036130c46",
+      "partner": "2896feb8-5491-4b88-90c7-444036130c46",
+      "contact": "2896feb8-5491-4b88-90c7-444036130c46"
+    },
+    "formDefaults": {
+      "trial": {
+        "hs_lead_status": "NEW"
+      },
+      "estimate": {
+        "hs_lead_status": "NEW"
+      },
+      "aws": {
+        "hs_lead_status": "NEW"
+      },
+      "partner": {
+        "product": "Amazon Connect"
+      }
+    }
+  },
+  "nav": [
+    {
+      "label": "Amazon Connect",
+      "items": [
+        {
+          "label": "Overview",
+          "url": "/amazon-connect/",
+          "desc": "Everything we do on Amazon Connect"
+        },
+        {
+          "label": "Migration",
+          "url": "/amazon-connect/migration/",
+          "desc": "Move to Amazon Connect in phases"
+        },
+        {
+          "label": "Setup and custom builds",
+          "url": "/solutions/amazon-connect-services/",
+          "desc": "Flows, routing, telephony, reporting"
+        },
+        {
+          "label": "Bots and AI",
+          "url": "/amazon-connect/ai-and-bots/",
+          "desc": "Chatbots, voice AI, agent assist"
+        },
+        {
+          "label": "Banking and regulated voice",
+          "url": "/solutions/banking-and-regulated-voice/",
+          "desc": "Outbound campaigns and voice AI"
+        }
+      ]
+    },
+    {
+      "label": "Products",
+      "items": [
+        {
+          "label": "Amazon Connect for HubSpot",
+          "url": "/products/hubspot/",
+          "desc": "Softphone, screen-pop and call logging"
+        },
+        {
+          "label": "Amazon Connect for Dynamics 365",
+          "url": "/products/dynamics-365/",
+          "desc": "Built on CIF 2.0 with Omnichannel"
+        },
+        {
+          "label": "Other CRMs",
+          "url": "/products/other-crms/",
+          "desc": "GoHighLevel, SuiteCRM, custom builds"
+        },
+        {
+          "label": "Campaign Manager",
+          "url": "/products/campaign-manager/",
+          "desc": "Outbound voice campaigns"
+        },
+        {
+          "label": "AI Quality Management",
+          "url": "/products/ai-quality-management/",
+          "desc": "Score every call with AI"
+        },
+        {
+          "label": "Call intelligence",
+          "url": "/products/call-intelligence/",
+          "desc": "Transcripts and AI summaries in your CRM"
+        }
+      ]
+    },
+    {
+      "label": "Resources",
+      "items": [
+        {
+          "label": "Docs",
+          "url": "https://octavebytes.github.io/Hubspot/",
+          "desc": "Requirements and deployment guides"
+        },
+        {
+          "label": "Security",
+          "url": "/resources/security/",
+          "desc": "Data handling and where it runs"
+        },
+        {
+          "label": "Guides",
+          "url": "/resources/guides/",
+          "desc": "Answers to questions buyers ask"
+        },
+        {
+          "label": "For AWS teams",
+          "url": "/partners/aws/",
+          "desc": "Fact sheet and cost-estimate inputs"
+        }
+      ]
+    },
+    {
+      "label": "Partners",
+      "url": "/partners/"
+    }
+  ],
+  "ga4Id": "G-PQXZPMEVBF",
+  "theme": "a",
+  "theme_locked": true,
+  "clarityId": "tiv7gtk2zl"
+}

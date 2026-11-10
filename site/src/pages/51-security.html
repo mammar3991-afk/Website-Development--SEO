@@ -1,0 +1,30 @@
+---
+updated: 2026-11-10
+url: /resources/security/
+crumb: Security
+title: Security and Data Handling | Octavebytes
+description: Where the Octavebytes connector runs, how it connects Amazon Connect to your CRM, how data is handled, and how to reach us about a security review.
+---
+<section class="hero hero--plain">
+  <div class="container">
+    <p class="eyebrow">Resources</p>
+    <h1>Security and data handling</h1>
+    <p class="lead">Where the connector runs, how it connects and who to contact.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container prose">
+    <div class="table-wrap"><table>
+      <thead><tr><th scope="col">Question</th><th scope="col">Answer</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Where does the connector run?</th><td>In the customer's own AWS account, in the region they choose, deployed with CloudFormation.</td></tr>
+        <tr><th scope="row">Where are recordings stored?</th><td>In the customer's own S3 bucket, as configured in Amazon Connect.</td></tr>
+        <tr><th scope="row">How does the connector connect to HubSpot or Dynamics?</th><td>A HubSpot Super Admin (or Dynamics 365 admin) approves the connection. Octavebytes does not need admin access to your CRM.</td></tr>
+        <tr><th scope="row">Single sign-on</th><td>Google Workspace is supported.</td></tr>
+        <tr><th scope="row">AWS technical review</th><td>The connector holds AWS Qualified Software status through the AWS Foundational Technical Review (FTR), as shown on its AWS Marketplace listing. <a href="/resources/guides/what-aws-ftr-certification-checks/">What FTR checks →</a></td></tr>
+        <tr><th scope="row">Security questions or vulnerability reports</th><td>Email <a href="mailto:{{var:support_email}}">{{var:support_email}}</a>. For a security questionnaire or data-flow details, <a href="/company/contact/?topic=sales#contact-form">contact us</a> and we will answer in writing.</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+{{include:cta-band}}

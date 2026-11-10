@@ -1,0 +1,54 @@
+---
+updated: 2026-11-10
+url: /company/contact/
+crumb: Contact
+title: Contact Octavebytes: Sales, Support and Offices
+description: Contact Octavebytes: talk to sales about Amazon Connect, get product support, book a call, or find our offices in the USA, the UK and Pakistan.
+---
+<section class="hero hero--plain">
+  <div class="container">
+    <p class="eyebrow">Company</p>
+    <h1>Contact us</h1>
+    <p class="lead">Tell us what you need and we will point you to the right person.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container two-col">
+    <div>
+      <h2>I want to…</h2>
+      <div class="routes">
+        <a class="route" href="/start-trial/"><span class="route__txt"><strong>Start a trial or get a quote</strong><span>Try it free or tell us what you need</span></span><span class="route__go" aria-hidden="true">&rarr;</span></a>
+        <div class="route route--static" id="support"><span class="route__txt"><strong>Get help as a customer</strong><span><a href="mailto:{{var:support_email}}">{{var:support_email}}</a> · <a href="{{var:docs_url}}" rel="noopener">Docs</a> · 24/7 support on paid plans</span></span></div>
+        <a class="route" href="#contact-form"><span class="route__txt"><strong>Discuss a bank or regulated-sector project</strong><span>Use the form on this page</span></span><span class="route__go" aria-hidden="true">&darr;</span></a>
+        <a class="route" href="/partners/"><span class="route__txt"><strong>Partner with us</strong><span>Partner enquiry</span></span><span class="route__go" aria-hidden="true">&rarr;</span></a>
+        <a class="route" href="/partners/aws/"><span class="route__txt"><strong>Work with the AWS account team</strong><span>For AWS teams</span></span><span class="route__go" aria-hidden="true">&rarr;</span></a>
+        <a class="route" href="/company/careers/"><span class="route__txt"><strong>Careers</strong><span>See open roles</span></span><span class="route__go" aria-hidden="true">&rarr;</span></a>
+      </div>
+      <h2 style="margin-top:2rem">Sales and offices</h2>
+      <p><strong>Sales:</strong> <a href="mailto:{{var:sales_email}}">{{var:sales_email}}</a> · {{var:phone_us}}<br><strong>Support:</strong> <a href="mailto:{{var:support_email}}">{{var:support_email}}</a></p>
+      <ul>
+        <li><strong>USA:</strong> 10808 Capri Dr, McKinney, TX 75072</li>
+        <li><strong>UK:</strong> 128 City Road, London EC1V 2NX</li>
+        <li><strong>Pakistan:</strong> Office 2, Fourth Floor, 36 Civic Centre, Garden Town, Lahore · {{var:phone_pk}}</li>
+      </ul>
+    </div>
+    <div id="contact-form">
+      <h2>General contact form</h2>
+      <form class="form" id="contactForm" data-form="contact" data-thanks="contactThanks">
+        <div class="form__row">
+          <div class="field"><label for="c-name">Name</label><input id="c-name" name="firstname" type="text" required autocomplete="name"><span class="err">Enter your name.</span></div>
+          <div class="field"><label for="c-email">Work email</label><input id="c-email" name="email" type="email" required autocomplete="email"><span class="err">Enter a valid work email.</span></div>
+        </div>
+        <div class="field"><label for="c-company">Company</label><input id="c-company" name="company" type="text" autocomplete="organization"></div>
+        <div class="field"><label for="c-product">Product of interest</label><select id="c-product" name="product" required><option value="">Select…</option><option>HubSpot CTI Connector</option><option>MSCRM CTI Connector</option><option>GHL CTI Connector</option><option>AI Voice Bot</option><option>Amazon Connect</option><option>Wallboard</option><option>Campaign Manager</option><option>Agent Desktop</option><option>WhatsApp Integration</option></select><span class="err">Choose a product.</span></div>
+        <div class="field"><label for="c-topic">Topic</label><select id="c-topic" name="topic" required><option value="">Select…</option><option value="sales">Sales</option><option value="support">Support</option><option value="regulated">Regulated-sector project</option><option value="partner">Partnership</option><option value="other">Other</option></select><span class="err">Choose a topic.</span></div>
+        <div class="field"><label for="c-msg">Message</label><textarea id="c-msg" name="message" rows="5" required></textarea><span class="err">Tell us how we can help.</span></div>
+        <div class="trap" aria-hidden="true"><label>Leave empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+        <div class="field"><label class="opts" style="font-weight:500"><input type="checkbox" name="consent" required> <span>I agree to be contacted about this request. <a href="/legal/privacy/">Privacy policy</a></span></label><span class="err">Please confirm so we can reply.</span></div>
+        <p class="form-error" hidden role="alert" style="color:#B42318;font-weight:600">Something went wrong. Please try again or email <a href="mailto:{{var:sales_email}}">{{var:sales_email}}</a>.</p>
+        <div><button class="btn btn--primary" type="submit" data-cta="contact-submit">Send message</button></div>
+      </form>
+      <div class="thanks" id="contactThanks" hidden><h2>Thanks, <span data-first-name>there</span>.</h2><p>We have your message.</p></div>
+    </div>
+  </div>
+</section>

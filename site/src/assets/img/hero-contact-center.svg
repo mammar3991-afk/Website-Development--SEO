@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" width="760" height="600" role="img" aria-labelledby="t d" font-family="Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif">
+<title id="t">Contact center agent on a call</title>
+<desc id="d">Illustration: an agent wearing a headset in front of a contact center dashboard, with an incoming call card, a matched CRM record and an AI call summary. Sample data.</desc>
+<defs>
+<linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5B82FF"/><stop offset="1" stop-color="#2748C2"/></linearGradient>
+<linearGradient id="g2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4A72F5"/><stop offset=".55" stop-color="#2B4FD0"/><stop offset="1" stop-color="#2B4FD0" stop-opacity="0"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#5B82FF" stop-opacity=".55"/><stop offset="1" stop-color="#5B82FF" stop-opacity="0"/></radialGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#030817" flood-opacity=".45"/></filter>
+<clipPath id="win"><rect x="170" y="56" width="540" height="392" rx="18"/></clipPath>
+</defs>
+<circle cx="420" cy="290" r="300" fill="url(#glow)"/>
+<g fill="#fff" opacity=".16"><circle cx="60" cy="90" r="3"/><circle cx="90" cy="90" r="3"/><circle cx="120" cy="90" r="3"/><circle cx="60" cy="120" r="3"/><circle cx="90" cy="120" r="3"/><circle cx="120" cy="120" r="3"/><circle cx="660" cy="520" r="3"/><circle cx="690" cy="520" r="3"/><circle cx="720" cy="520" r="3"/><circle cx="660" cy="550" r="3"/><circle cx="690" cy="550" r="3"/><circle cx="720" cy="550" r="3"/></g>
+
+<!-- dashboard window -->
+<g filter="url(#sh)"><rect x="170" y="56" width="540" height="392" rx="18" fill="#fff"/></g>
+<g clip-path="url(#win)">
+<rect x="170" y="56" width="540" height="44" fill="#F1F4FB"/>
+<circle cx="194" cy="78" r="5.5" fill="#D5DBEA"/><circle cx="212" cy="78" r="5.5" fill="#D5DBEA"/><circle cx="230" cy="78" r="5.5" fill="#D5DBEA"/>
+<rect x="330" y="68" width="220" height="20" rx="10" fill="#fff" stroke="#E1E6F2"/>
+<text x="440" y="82" text-anchor="middle" font-size="10.5" fill="#6B7790">Contact center · live</text>
+<!-- stat tiles -->
+<g font-size="11" fill="#6B7790">
+<rect x="398" y="118" width="92" height="64" rx="10" fill="#F6F8FD"/><text x="410" y="138">In queue</text><text x="410" y="168" font-size="24" font-weight="700" fill="#0E1A33">3</text>
+<rect x="500" y="118" width="92" height="64" rx="10" fill="#F6F8FD"/><text x="512" y="138">Agents on</text><text x="512" y="168" font-size="24" font-weight="700" fill="#0E1A33">12</text>
+<rect x="602" y="118" width="92" height="64" rx="10" fill="#EAF8F1"/><text x="614" y="138">Answered</text><text x="614" y="168" font-size="24" font-weight="700" fill="#0B7A53">96%</text>
+</g>
+<!-- chart -->
+<rect x="398" y="196" width="296" height="130" rx="10" fill="#F6F8FD"/>
+<text x="412" y="218" font-size="11" fill="#6B7790">Calls today</text>
+<g fill="#C9D6FB"><rect x="414" y="282" width="18" height="30" rx="4"/><rect x="442" y="266" width="18" height="46" rx="4"/><rect x="470" y="250" width="18" height="62" rx="4"/><rect x="498" y="270" width="18" height="42" rx="4"/><rect x="526" y="240" width="18" height="72" rx="4"/><rect x="554" y="256" width="18" height="56" rx="4"/><rect x="582" y="262" width="18" height="50" rx="4"/><rect x="638" y="276" width="18" height="36" rx="4"/><rect x="666" y="288" width="18" height="24" rx="4"/></g>
+<rect x="610" y="232" width="18" height="80" rx="4" fill="#3762EC"/>
+<!-- queue rows -->
+<g font-size="11" fill="#46526B">
+<rect x="398" y="340" width="296" height="30" rx="8" fill="#F6F8FD"/><circle cx="414" cy="355" r="5" fill="#0B7A53"/><text x="428" y="359">Sales · English</text><text x="682" y="359" text-anchor="end" fill="#0E1A33" font-weight="600">00:12</text>
+<rect x="398" y="376" width="296" height="30" rx="8" fill="#F6F8FD"/><circle cx="414" cy="391" r="5" fill="#E9A23B"/><text x="428" y="395">Support · Urdu</text><text x="682" y="395" text-anchor="end" fill="#0E1A33" font-weight="600">00:41</text>
+<rect x="398" y="412" width="296" height="30" rx="8" fill="#F6F8FD"/><circle cx="414" cy="427" r="5" fill="#0B7A53"/><text x="428" y="431">Collections · outbound</text>
+</g>
+</g>
+
+<!-- agent -->
+<g>
+<path d="M96 600C96 508 150 462 232 450L262 446h76l30 4c82 12 136 58 136 150Z" fill="url(#g2)"/>
+<path d="M262 446l38 46 38-46-10-8h-56Z" fill="#fff"/>
+<path d="M270 400h60v44c0 12-13 30-30 30s-30-18-30-30Z" fill="#DFA27A"/>
+<ellipse cx="300" cy="340" rx="64" ry="74" fill="#F3C29B"/>
+<path d="M234 344c-8-70 24-104 70-104 44 0 76 30 62 100-10-34-28-52-64-54-34-2-56 20-68 58Z" fill="#141E3A"/>
+<path d="M366 318c10 30 6 62-4 82 14-18 22-52 12-84Z" fill="#141E3A"/>
+<ellipse cx="277" cy="350" rx="5" ry="6.5" fill="#141E3A"/><ellipse cx="325" cy="350" rx="5" ry="6.5" fill="#141E3A"/>
+<path d="M280 382c12 12 30 12 42 0" fill="none" stroke="#B8603F" stroke-width="4.5" stroke-linecap="round"/>
+<ellipse cx="258" cy="368" rx="9" ry="6" fill="#EE9C86" opacity=".55"/><ellipse cx="344" cy="368" rx="9" ry="6" fill="#EE9C86" opacity=".55"/>
+<!-- headset -->
+<path d="M230 344c-6-128 146-128 140 0" fill="none" stroke="#0E1A33" stroke-width="11" stroke-linecap="round"/>
+<rect x="214" y="322" width="28" height="56" rx="13" fill="#0E1A33"/><rect x="358" y="322" width="28" height="56" rx="13" fill="#0E1A33"/>
+<rect x="220" y="334" width="8" height="32" rx="4" fill="#5B82FF"/>
+<path d="M228 376c0 36 24 40 46 36" fill="none" stroke="#0E1A33" stroke-width="6" stroke-linecap="round"/>
+<rect x="268" y="402" width="24" height="14" rx="7" fill="#7EE2B8"/>
+</g>
+
+<!-- incoming call card -->
+<g filter="url(#sh)"><rect x="24" y="150" width="230" height="118" rx="16" fill="#fff"/></g>
+<circle cx="58" cy="186" r="18" fill="#EAF8F1"/>
+<path d="M50 180c0 8 6 15 14 16l3-4-4-3-2 1c-2-1-4-3-5-6l1-2-3-4Z" fill="#0B7A53"/>
+<text x="86" y="182" font-size="11" fill="#6B7790">Incoming call</text>
+<text x="86" y="200" font-size="14.5" font-weight="700" fill="#0E1A33">Sample Contact</text>
+<rect x="40" y="220" width="96" height="32" rx="16" fill="#0B7A53"/><text x="88" y="241" text-anchor="middle" font-size="12.5" font-weight="600" fill="#fff">Answer</text>
+<rect x="144" y="220" width="94" height="32" rx="16" fill="#F1F4FB"/><text x="191" y="241" text-anchor="middle" font-size="12.5" font-weight="600" fill="#46526B">Transfer</text>
+
+<!-- CRM matched pill -->
+<g filter="url(#sh)"><rect x="456" y="18" width="232" height="46" rx="23" fill="#0E1A33" stroke="#3B4C7E"/></g>
+<circle cx="481" cy="41" r="11" fill="#7EE2B8"/><path d="M475.5 41l4 4 7-8" fill="none" stroke="#0E1A33" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="502" y="46" font-size="13" font-weight="600" fill="#fff">CRM record matched</text>
+
+<!-- AI summary card -->
+<g filter="url(#sh)"><rect x="476" y="430" width="262" height="140" rx="16" fill="#fff"/></g>
+<rect x="494" y="448" width="30" height="30" rx="9" fill="url(#g1)"/>
+<path d="M509 454l2.6 6.4 6.4 2.6-6.4 2.6-2.6 6.4-2.6-6.4-6.4-2.6 6.4-2.6Z" fill="#fff"/>
+<text x="534" y="461" font-size="13.5" font-weight="700" fill="#0E1A33">AI call summary</text>
+<text x="534" y="476" font-size="10.5" fill="#6B7790">Logged to the CRM record</text>
+<rect x="494" y="492" width="226" height="8" rx="4" fill="#E4E9F5"/><rect x="494" y="508" width="196" height="8" rx="4" fill="#E4E9F5"/><rect x="494" y="524" width="150" height="8" rx="4" fill="#E4E9F5"/>
+<g fill="#3762EC"><rect x="494" y="546" width="4" height="10" rx="2"/><rect x="502" y="541" width="4" height="20" rx="2"/><rect x="510" y="544" width="4" height="14" rx="2"/><rect x="518" y="538" width="4" height="26" rx="2"/><rect x="526" y="543" width="4" height="16" rx="2"/><rect x="534" y="546" width="4" height="10" rx="2"/><rect x="542" y="540" width="4" height="22" rx="2"/><rect x="550" y="545" width="4" height="12" rx="2"/></g>
+<text x="566" y="555" font-size="10.5" fill="#6B7790">04:12 · recording attached</text>
+</svg>

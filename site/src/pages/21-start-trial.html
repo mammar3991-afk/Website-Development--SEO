@@ -1,0 +1,83 @@
+---
+updated: 2026-11-10
+url: /start-trial/
+crumb: Start a trial
+title: Start a 7-Day Free Trial | Amazon Connect CRM Connector
+description: Start a 7-day free trial of the Octavebytes Amazon Connect connector for HubSpot or Dynamics 365. Tell us your CRM and setup; it takes about two minutes.
+---
+<section class="section" style="padding-top:2rem">
+  <div class="container form-shell">
+    <div>
+      <p class="eyebrow">Trial and contact</p>
+      <h1>Start your {{var:trial_days}}-day trial</h1>
+      <p class="lead">Tell us about your setup. An engineer will reply with the next steps.</p>
+
+      <form class="form" id="trialForm" data-form="trial" data-thanks="trialThanks" aria-describedby="trialNote">
+        <input type="hidden" name="intent" value="trial">
+        <div class="form__row">
+          <div class="field"><label for="firstname">First name</label><input id="firstname" name="firstname" type="text" autocomplete="given-name" required><span class="err">Enter your first name.</span></div>
+          <div class="field"><label for="lastname">Last name</label><input id="lastname" name="lastname" type="text" autocomplete="family-name" required><span class="err">Enter your last name.</span></div>
+        </div>
+        <div class="form__row">
+          <div class="field"><label for="email">Work email</label><input id="email" name="email" type="email" autocomplete="email" required><span class="err">Enter a valid work email.</span></div>
+          <div class="field"><label for="company">Company</label><input id="company" name="company" type="text" autocomplete="organization" required><span class="err">Enter your company.</span></div>
+        </div>
+        <div class="form__row">
+          <div class="field"><label for="crm_used">Which CRM do you use?</label>
+            <select id="crm_used" name="crm_used" required><option value="">Select…</option><option>HubSpot</option><option>Microsoft Dynamics 365</option><option>GoHighLevel</option><option>Other</option></select><span class="err">Choose a CRM.</span></div>
+          <div class="field"><label for="connect_status">Are you running Amazon Connect?</label>
+            <select id="connect_status" name="connect_status" required><option value="">Select…</option><option>Yes, in production</option><option>Yes, testing</option><option>Not yet, we are choosing a system</option></select><span class="err">Choose one.</span></div>
+        </div>
+        <div class="form__row">
+          <div class="field"><label for="aws_region">AWS region of your Amazon Connect instance</label>
+            <select id="aws_region" name="aws_region"><option value="">I don't know</option><option>us-east-1 (N. Virginia)</option><option>us-west-2 (Oregon)</option><option>eu-west-2 (London)</option><option>eu-central-1 (Frankfurt)</option><option>ap-southeast-2 (Sydney)</option><option>ap-southeast-1 (Singapore)</option><option>ca-central-1 (Canada)</option><option>Other</option></select></div>
+          <div class="field"><label for="agent_band">How many agents?</label>
+            <select id="agent_band" name="agent_band" required><option value="">Select…</option><option>1–5</option><option>6–20</option><option>21–50</option><option>51+</option></select><span class="err">Choose a range.</span></div>
+        </div>
+        <fieldset class="field"><legend>Which channels matter?</legend>
+          <div class="opts"><label><input type="checkbox" name="channels" value="Voice"> Voice</label><label><input type="checkbox" name="channels" value="SMS"> SMS</label><label><input type="checkbox" name="channels" value="WhatsApp"> WhatsApp</label><label><input type="checkbox" name="channels" value="Chat"> Chat</label><label><input type="checkbox" name="channels" value="Transcripts and AI summaries"> Transcripts and AI summaries</label></div>
+        </fieldset>
+        <div class="field"><label for="message">Anything else we should know? <span class="hint">(optional)</span></label><textarea id="message" name="message" rows="4"></textarea></div>
+        <div class="trap" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+        <div class="field"><label class="opts" style="font-weight:500"><input type="checkbox" name="consent" required> <span>I agree to be contacted about this request. <a href="/legal/privacy/">Privacy policy</a></span></label><span class="err">Please confirm so we can reply.</span></div>
+        <p class="form-error" hidden role="alert" style="color:#B42318;font-weight:600">Something went wrong sending your request. Please try again, or email <a href="mailto:{{var:sales_email}}">{{var:sales_email}}</a>.</p>
+        <div><button class="btn btn--primary" type="submit" data-cta="trial-submit">Start my trial</button></div>
+        <p class="notice" id="trialNote">Free for 7 days, with no upfront setup cost.</p>
+      </form>
+
+      <div class="thanks" id="trialThanks" hidden>
+        <h2>Thanks, <span data-first-name>there</span>. We have your request.</h2>
+        <p>Here is what to have ready:</p>
+        <ul class="checks">
+          <li>Your Amazon Connect <strong>instance alias and ID</strong></li>
+          <li>The <strong>AWS region</strong></li>
+          <li>The <strong>S3 bucket</strong> where call recordings are stored</li>
+          <li>A <strong>HubSpot Super Admin</strong> (or Dynamics 365 admin) who can approve the connection</li>
+        </ul>
+        <p><a class="btn btn--primary" href="{{var:docs_url}}" rel="noopener">Read the requirements</a></p>
+      </div>
+    </div>
+
+    <aside>
+      <div class="aside-card">
+        <h2 style="font-size:1.25rem">What happens next</h2>
+        <ol>
+          <li><strong>You get an email</strong> with the requirements checklist.</li>
+          <li><strong>We open your trial</strong> on our hosted environment.</li>
+          <li><strong>Your agents test for {{var:trial_days}} days.</strong> An engineer is on the thread.</li>
+          <li><strong>You decide.</strong> If you go ahead, we deploy into your AWS account.</li>
+        </ol>
+      </div>
+      <div class="aside-card" style="margin-top:1rem">
+        <h2 style="font-size:1.25rem">Prefer another route?</h2>
+        <ul>
+          <li><a href="{{var:booking_url}}" rel="noopener" data-cta="trial-book">Book a 30-minute call</a></li>
+          <li><a href="{{var:aws_marketplace_url}}" data-marketplace="aws" rel="noopener">Buy on AWS Marketplace</a></li>
+          <li><a href="{{var:hubspot_marketplace_url}}" data-marketplace="hubspot" rel="noopener">Buy on HubSpot Marketplace</a></li>
+          <li>Not running Amazon Connect yet? <a href="/solutions/amazon-connect-services/">We can set it up</a></li>
+          <li>Bank or regulated-sector project? <a href="/company/contact/">Contact us</a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</section>

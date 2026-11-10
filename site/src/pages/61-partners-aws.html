@@ -1,0 +1,80 @@
+---
+url: /partners/aws/
+crumb: For AWS teams
+title: For AWS Account Teams: Octavebytes | Amazon Connect Partner
+description: Fact sheet for AWS solutions architects and partner managers: credentials, what we deliver, cost-estimate inputs and how to register an opportunity.
+robots: noindex, follow
+---
+<section class="hero hero--plain">
+  <div class="container">
+    <p class="eyebrow">Partners</p>
+    <h1>For AWS account teams</h1>
+    <p class="lead">You have a customer on (or moving to) Amazon Connect who needs migration, a custom build, bots and AI, a CRM connector, or a regulated-sector voice project. This page is what you can forward.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container prose">
+    <h2>In one paragraph</h2>
+    <p>Octavebytes is an AWS Select Tier Services Partner, an Amazon Connect Service Delivery Partner and an Amazon Connect Ready Partner. We deliver Amazon Connect migrations, custom builds, bots and voice-AI projects, and we build products on it: connectors for HubSpot and Microsoft Dynamics 365 (AWS FTR-certified, listed on AWS Marketplace) and a campaign manager.</p>
+    <h2>Quick facts</h2>
+    <div class="table-wrap"><table>
+      <tbody>
+        <tr><th scope="row">AWS partner status</th><td>Select Tier Services · Amazon Connect Service Delivery · Amazon Connect Ready</td></tr>
+        <tr><th scope="row">Marketplace</th><td>HubSpot connector and Dynamics 365 connector on AWS Marketplace</td></tr>
+        <tr><th scope="row">Products</th><td>Amazon Connect connectors for HubSpot, Dynamics 365 and GoHighLevel · call intelligence · Campaign Manager</td></tr>
+        <tr><th scope="row">Deployment</th><td>In the customer's AWS account, CloudFormation-based</td></tr>
+        <tr><th scope="row">Regions</th><td>Any region the customer's Amazon Connect instance uses</td></tr>
+        <tr><th scope="row">Delivery locations</th><td>USA, UK, Pakistan</td></tr>
+        <tr><th scope="row">Languages</th><td>English; Urdu voice flows delivered. Others on request</td></tr>
+        <tr><th scope="row">Registration</th><td>ACE opportunity registration; we accept co-sell</td></tr>
+      </tbody>
+    </table></div>
+    <h2>What the customer pays</h2>
+    <p>Our plans are <strong>per-seat</strong> tailored to the customer's team, with a {{var:trial_days}}-day free trial. Call intelligence (transcripts, sentiment, AI summaries) is an add-on. We send a quote or estimate on request. The customer separately pays AWS for Amazon Connect and hosting. Most customers transact through an AWS Marketplace private offer. <a href="/resources/guides/aws-marketplace-private-offers-explained/">How that works →</a></p>
+    <h2>Give us these inputs and we return a cost estimate</h2>
+    <div class="table-wrap"><table>
+      <thead><tr><th scope="col">Input</th><th scope="col">Why we ask</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">CRM (HubSpot, Dynamics 365, other) and edition</th><td>Chooses the connector</td></tr>
+        <tr><th scope="row">Number of agents, and peak concurrent calls</th><td>Licences and hosting size</td></tr>
+        <tr><th scope="row">Channels: voice, SMS, WhatsApp, chat</th><td>Core versus Plus</td></tr>
+        <tr><th scope="row">Amazon Connect region and instance status</th><td>Deployment plan</td></tr>
+        <tr><th scope="row">Telephony: existing numbers, carrier, countries dialled</th><td>Carrier scope and cost</td></tr>
+        <tr><th scope="row">AI needs: transcripts, summaries, voice agent</th><td>Contact Lens and Bedrock costs</td></tr>
+        <tr><th scope="row">Timeline and any AWS funding programme in play</th><td>Planning</td></tr>
+      </tbody>
+    </table></div>
+    <p>A typical estimate has three lines: <strong>connector subscription, one-time setup, and AWS usage</strong> (with a link to the AWS Pricing Calculator).</p>
+    <h2>How an engagement runs</h2>
+    <ol>
+      <li><strong>Discovery call</strong> (30 minutes) with the customer and your team</li>
+      <li><strong>{{var:trial_days}}-day trial</strong> on our hosted environment</li>
+      <li><strong>Statement of work</strong> (scope, timeline, price)</li>
+      <li><strong>Deployment</strong> into the customer's AWS account</li>
+      <li><strong>Go-live and hand-over</strong>, with support included</li>
+    </ol>
+    <h2 id="send">Send us an opportunity</h2>
+    <p>Register in ACE, or use this form. We reply by email.</p>
+    <form class="form" id="awsForm" data-form="aws" data-thanks="awsThanks">
+      <div class="form__row">
+        <div class="field"><label for="a-name">Your name</label><input id="a-name" name="firstname" type="text" required><span class="err">Enter your name.</span></div>
+        <div class="field"><label for="a-email">Work email</label><input id="a-email" name="email" type="email" required><span class="err">Enter a valid work email.</span></div>
+      </div>
+      <div class="form__row">
+        <div class="field"><label for="a-cust">Customer name</label><input id="a-cust" name="company" type="text" required><span class="err">Enter the customer.</span></div>
+        <div class="field"><label for="a-crm">CRM</label><select id="a-crm" name="crm_used" required><option value="">Select…</option><option>HubSpot</option><option>Microsoft Dynamics 365</option><option>GoHighLevel</option><option>Other</option></select><span class="err">Choose a CRM.</span></div>
+      </div>
+      <div class="form__row">
+        <div class="field"><label for="a-agents">Agents (approx.)</label><input id="a-agents" name="agent_count" type="text"></div>
+        <div class="field"><label for="a-time">Timeline</label><input id="a-time" name="timeline" type="text"></div>
+      </div>
+      <div class="field"><label for="a-ace">ACE opportunity ID <span class="hint">(optional)</span></label><input id="a-ace" name="ace_id" type="text"></div>
+      <div class="trap" aria-hidden="true"><label>Leave empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+      <div class="field"><label class="opts" style="font-weight:500"><input type="checkbox" name="consent" required> <span>I agree to be contacted about this opportunity. <a href="/legal/privacy/">Privacy policy</a></span></label><span class="err">Please confirm so we can reply.</span></div>
+      <p class="form-error" hidden role="alert" style="color:#B42318;font-weight:600">Something went wrong. Please try again or email <a href="mailto:{{var:sales_email}}">{{var:sales_email}}</a>.</p>
+      <div class="btn-row" style="margin:0"><button class="btn btn--primary" type="submit" data-cta="aws-submit">Send an opportunity</button><a class="btn btn--ghost" href="/start-trial/" data-cta="aws-trial">Start a trial for a customer</a></div>
+    </form>
+    <div class="thanks" id="awsThanks" hidden><h2>Thanks, <span data-first-name>there</span>.</h2><p>We have your opportunity and will be in touch.</p></div>
+    <p class="notice">Amazon Connect is now called Amazon Connect Customer by AWS. We use "Amazon Connect" because that is still what most teams say.</p>
+  </div>
+</section>

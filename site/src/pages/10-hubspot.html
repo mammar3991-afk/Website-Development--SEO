@@ -1,0 +1,103 @@
+---
+offer: none
+updated: 2026-11-10
+url: /products/hubspot/
+crumb: Amazon Connect for HubSpot
+product: Octave HubSpot CTI Connector for Amazon Connect
+title: Amazon Connect HubSpot CTI Integration | Octavebytes
+description: HubSpot CTI connector for Amazon Connect. Softphone inside HubSpot with screen-pop, click-to-dial and call logging. Pay per seat, with a {{var:trial_days}}-day free trial.
+---
+<section class="hero hero--plain">
+  <div class="container">
+    <p class="eyebrow">Product · built on Amazon Connect</p>
+    <h1>Amazon Connect for HubSpot: the CTI connector</h1>
+    <p class="lead">Answer calls in HubSpot. Every call is logged on the contact, company, deal or ticket. It works with the Amazon Connect instance you already run.</p>
+    <div class="btn-row">
+      <a class="btn btn--primary" href="/start-trial/?crm=HubSpot" data-cta="hubspot-hero-trial">Start a {{var:trial_days}}-day trial</a>
+      <a class="btn btn--ghost" href="{{var:booking_url}}" rel="noopener" data-cta="hubspot-hero-book">Book a call</a>
+      <a class="btn btn--ghost" href="{{var:hubspot_marketplace_url}}" data-marketplace="hubspot" rel="noopener">View on HubSpot Marketplace</a>
+    </div>
+    <ul class="trust"><li>AWS FTR-certified</li><li>Listed on AWS Marketplace</li><li>Listed on HubSpot Marketplace</li></ul>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="do-h">
+  <div class="container">
+    <div class="section__head"><h2 id="do-h">What agents can do without leaving HubSpot</h2></div>
+    <ul class="feature-list">
+      <li><strong>Take inbound calls</strong>The Amazon Connect Contact Control Panel runs inside HubSpot. Answer, hold, resume, transfer, mute and conference from the same window.</li>
+      <li><strong>Know who is calling</strong>On arrival, the matching contact, company, deal or ticket opens. Two records share a number? The agent chooses. No match? They create the record without leaving the call. <a href="/resources/guides/hubspot-cti-screen-pop-explained/">How matching works →</a></li>
+      <li><strong>Call out with one click</strong>Click any phone number in HubSpot to dial.</li>
+      <li><strong>Log every call automatically</strong>Each call becomes a HubSpot activity linked to the right record, with direction, duration and the recording.</li>
+      <li><strong>Control recordings</strong>Agents can pause and resume recording during sensitive moments, and listen back from the call activity.</li>
+      <li><strong>Close the loop with wrap-up codes</strong>Outcomes are captured the same way on every call, so reports stay comparable.</li>
+      <li><strong>Text from the record</strong>Click-to-send SMS.</li>
+      <li><strong>Message on WhatsApp and social, and read the conversation later</strong>Transcripts, sentiment and AI summaries are written to the record. <span class="tag">Add-on</span> <a href="/products/call-intelligence/">Call intelligence</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section section--surface" aria-labelledby="cfg-h">
+  <div class="container">
+    <div class="section__head"><h2 id="cfg-h">Set it up your way</h2><p class="lead">Different teams want different behaviour, so the connector is configurable.</p></div>
+    <ul class="checks prose">
+      <li><strong>Contact-based, company-based or deal-based flows.</strong> Choose which HubSpot object opens on arrival and which one the activity attaches to.</li>
+      <li><strong>Matching rules</strong> for multi-match and no-match numbers.</li>
+      <li><strong>Single sign-on</strong> with Google Workspace.</li>
+      <li><strong>Custom queue logic and fields</strong> on request. <a href="/solutions/amazon-connect-services/">Custom builds</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section section--dark" aria-labelledby="dep-h">
+  <div class="container">
+    <div class="section__head"><h2 id="dep-h">How it deploys</h2><p class="lead">The connector runs <strong>in your AWS account</strong>, so your recordings and Amazon Connect data stay where they already are.</p></div>
+    {{include:diagram}}
+    <div class="split">
+      <div><h3>You provide</h3>
+        <ul class="checks">
+          <li>Your Amazon Connect <strong>instance alias, instance ID and region</strong></li>
+          <li>The <strong>S3 bucket</strong> where Amazon Connect stores call recordings</li>
+          <li>A <strong>HubSpot Super Admin</strong> to approve the connection (they do not need to give us access)</li>
+          <li>Someone who can run a <strong>CloudFormation template</strong> in your AWS account</li>
+        </ul>
+      </div>
+      <div><h3>We provide</h3>
+        <ul class="checks">
+          <li>A CloudFormation template (recommended), or a step-by-step guide with a remote session</li>
+          <li>A trial on our hosted environment first, so you test with real agents before touching production</li>
+          <li>Engineers on the thread until your agents are taking calls</li>
+        </ul>
+      </div>
+    </div>
+    <p><a href="{{var:docs_url}}" rel="noopener" data-cta="hubspot-docs">Read the requirements and deployment guide →</a></p>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="cost-h">
+  <div class="container">
+    <div class="section__head"><h2 id="cost-h">Plans</h2></div>
+    <div class="table-wrap"><table>
+      <thead><tr><th scope="col">Per seat, per month</th><th scope="col">Plans tailored to your team</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Softphone, screen-pop, click-to-dial</th><td class="y"><span>Included</span></td></tr>
+        <tr><th scope="row">Call logging and recordings, wrap-up codes</th><td class="y"><span>Included</span></td></tr>
+        <tr><th scope="row">SMS</th><td class="y"><span>Included</span></td></tr>
+        <tr><th scope="row">WhatsApp, transcripts and AI summaries</th><td>Add-on: <a href="/products/call-intelligence/">call intelligence add-on</a></td></tr>
+      </tbody>
+    </table></div>
+    {{include:plan-costs}}
+  </div>
+</section>
+
+<section class="section section--surface" aria-labelledby="faq-h">
+  <div class="container">
+    <div class="section__head"><h2 id="faq-h">Common questions</h2></div>
+    <div class="prose">
+            <details class="faq"><summary>Does it write calls and transcripts to HubSpot?</summary><div><p>It writes calls, transcripts and AI summaries to HubSpot records.</p></div></details>
+      <details class="faq"><summary>Can our agents use it in the browser?</summary><div><p>Yes, the softphone runs in the browser tab.</p></div></details>
+      <details class="faq"><summary>What if the number of agents changes?</summary><div><p>You pay per seat per month. Talk to us if your team size changes.</p></div></details>
+          </div>
+  </div>
+</section>
+{{include:cta-band}}

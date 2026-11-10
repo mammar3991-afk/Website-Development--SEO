@@ -1,0 +1,52 @@
+<section class="tp" data-theme="@@KEY@@" aria-labelledby="tp-@@KEY@@">
+  <div class="tp__head">
+    <div><h2 id="tp-@@KEY@@">Option @@UP@@ · @@NAME@@</h2><p class="notice">@@DESC@@</p></div>
+    <a class="btn btn--primary btn--sm" href="/?theme=@@KEY@@" data-apply="@@KEY@@">Use this option on the whole site</a>
+  </div>
+  <div class="tp__browser">
+    <div class="tp__bar">
+      <span class="tp__logo">@@LOGOS@@</span>
+      <span class="tp__nav"><span>Products</span><span>Solutions</span><span>Pricing</span><span>Resources</span></span>
+      <span class="btn btn--primary btn--sm">Start a 7-day trial</span>
+    </div>
+    <div class="tp__hero">
+      <p class="eyebrow">For teams running Amazon Connect</p>
+      <p class="tp__title">Your Amazon Connect partner.</p>
+      <p class="lead">Body text in the secondary colour, on the tinted hero background, with <a href="#tp-@@KEY@@" onclick="return false">a link inside the sentence</a>.</p>
+      <div class="btn-row">
+        <span class="btn btn--primary">Start a 7-day trial</span>
+        <span class="btn btn--ghost">See pricing</span>
+      </div>
+      <ul class="trust"><li>AWS Select Tier Services Partner</li><li>AWS FTR-certified connector</li></ul>
+    </div>
+    <div class="tp__cols">
+      <div class="plan plan--hl">
+        <h3 class="plan__name">Octave Connector</h3>
+        <div class="plan__price">${{var:price}}</div>
+        <p class="plan__unit">per agent per month</p>
+        <ul class="checks"><li>Softphone, screen-pop, click-to-dial</li><li>Call logging and recordings</li></ul>
+        <span class="btn btn--primary">Start a 7-day trial</span>
+      </div>
+      <div>
+        <div class="table-wrap"><table>
+          <thead><tr><th scope="col">Feature</th><th scope="col">Included</th></tr></thead>
+          <tbody><tr><th scope="row">Screen-pop</th><td class="y"><span>Included</span></td></tr>
+          <tr><th scope="row">AI summaries</th><td>+${{var:ci_addon}} add-on</td></tr></tbody>
+        </table></div>
+        <div class="field" style="margin-top:1rem"><label>Work email</label><input type="text" value="name@company.com" readonly tabindex="-1"></div>
+        <p style="margin-top:.75rem"><span class="tag">Add-on</span> <span class="notice">Small label and caption text</span></p>
+      </div>
+    </div>
+    <div class="section--dark tp__dark">
+      <h3>How it deploys</h3>
+      <p>Body text on the dark band, with <a href="#tp-@@KEY@@" onclick="return false">a link on dark</a>.</p>
+      <div class="diagram" style="margin:1rem 0"><div class="diagram__box">Amazon Connect<small>Your instance</small></div><div class="diagram__arrow" aria-hidden="true">→</div>
+        <div class="diagram__aws"><span>Your AWS account</span><div class="diagram__box">Octave connector<small>CloudFormation</small></div></div><div class="diagram__arrow" aria-hidden="true">→</div><div class="diagram__box">HubSpot<small>Calls, texts</small></div></div>
+      <span class="btn btn--light">Light button</span> <span class="btn btn--ghost" style="background:transparent;color:#fff;border-color:var(--dark-line-strong)">Outline button</span>
+    </div>
+    <div class="footer tp__foot">
+      <div class="tp__footin">@@LOGOS@@<span>Footer text and <a href="#tp-@@KEY@@" onclick="return false">links</a></span><span class="tp__small">Small print in the footer</span></div>
+    </div>
+  </div>
+  <details class="tp__contrast">@@CONTRAST@@</details>
+</section>

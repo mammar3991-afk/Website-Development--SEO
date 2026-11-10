@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en" data-theme="{{theme}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<meta name="robots" content="{{robots}}">
+<link rel="canonical" href="{{canonical}}">
+<meta property="og:type" content="{{og_type}}">
+<meta property="og:site_name" content="Octavebytes">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:url" content="{{canonical}}">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://octavebytes.com/assets/img/og-contact-center.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Octavebytes: your Amazon Connect partner. Illustration of a contact center agent with call and CRM panels.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{title}}">
+<meta name="twitter:description" content="{{description}}">
+<meta name="twitter:image" content="https://octavebytes.com/assets/img/og-contact-center.png">
+<meta name="theme-color" content="#3762EC">
+<link rel="icon" href="/assets/img/favicon.png" type="image/png">
+<link rel="preload" href="/assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css?v={{css_v}}">
+{{jsonld}}
+<!--REVIEW--><!--THEME--><script>(function(){try{var q=new URLSearchParams(location.search).get("theme"),t=q||localStorage.getItem("ob_theme");if(q)localStorage.setItem("ob_theme",q);if(t&&/^[a-d]$/.test(t))document.documentElement.setAttribute("data-theme",t)}catch(e){}})();</script><!--/THEME--><!--/REVIEW-->
+<script>window.OB_CONFIG = {{hs_config}};</script>
+</head>
+<body class="{{body_class}}">
+<a class="skip" href="#main">Skip to content</a>
+
+<!--REVIEW--><div class="reviewbar" id="reviewbar" hidden>
+  <span><strong>Prototype review mode.</strong> <span id="flagcount">0</span> open flags on this page.</span>
+  <!--THEME--><span class="reviewbar__theme"><label for="themeSel">Colour option</label>
+    <select id="themeSel"><option value="a">A · Current blue</option><option value="b">B · Indigo and amber</option><option value="c">C · Teal</option><option value="d">D · Graphite and orange</option></select>
+    <a href="/theme-preview/">Compare all four</a></span><!--/THEME-->
+  <label class="reviewbar__toggle"><input type="checkbox" id="reviewToggle" checked> Show review flags</label>
+</div><!--/REVIEW-->
+
+<div class="utility">
+  <div class="container utility__in">
+    <span class="utility__left">AWS Select Tier Services Partner · Amazon Connect Service Delivery Partner</span>
+    <span class="utility__right">
+      <a href="https://octavebytes.github.io/Hubspot/" rel="noopener">Docs</a>
+      <a href="/company/contact/#support">Support</a>
+      <a href="tel:+18556814627">{{phone_us}}</a>
+    </span>
+  </div>
+</div>
+
+<header class="header" id="top">
+  <div class="container header__in">
+    <a class="brand" href="/" aria-label="Octavebytes home">{{logo}}</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="primaryNav">
+      <span class="menu-btn__bars" aria-hidden="true"></span><span class="sr">Menu</span>
+    </button>
+    <nav class="nav" id="primaryNav" aria-label="Primary">
+      <ul class="nav__list">{{nav}}</ul>
+      <a class="btn btn--primary btn--sm nav__cta" href="/company/contact/?topic=sales#contact-form" data-cta="header-talk">Talk to an expert</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+<div class="container">{{crumbs}}</div>
+{{content}}
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        {{logo_footer}}
+        <p>Your Amazon Connect partner.</p>
+        <p class="footer__market">
+          <a href="{{aws_marketplace_url}}" data-marketplace="aws" rel="noopener">AWS Marketplace</a> ·
+          <a href="{{hubspot_marketplace_url}}" data-marketplace="hubspot" rel="noopener">HubSpot Marketplace</a>
+        </p>
+      </div>
+      <div>
+        <h2 class="footer__h">Amazon Connect</h2>
+        <ul>
+          <li><a href="/amazon-connect/">Overview</a></li>
+          <li><a href="/amazon-connect/migration/">Migration</a></li>
+          <li><a href="/solutions/amazon-connect-services/">Setup and custom builds</a></li>
+          <li><a href="/amazon-connect/ai-and-bots/">Bots and AI</a></li>
+          <li><a href="/solutions/banking-and-regulated-voice/">Banking and regulated voice</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer__h">Products</h2>
+        <ul>
+          <li><a href="/products/hubspot/">HubSpot connector</a></li>
+          <li><a href="/products/dynamics-365/">Dynamics 365 connector</a></li>
+          <li><a href="/products/other-crms/">Other CRMs</a></li>
+          <li><a href="/products/campaign-manager/">Campaign Manager</a></li>
+          <li><a href="/products/ai-quality-management/">AI Quality Management</a></li>
+          <li><a href="/products/call-intelligence/">Call intelligence</a></li>
+          <li><a href="/partners/aws/">For AWS teams</a></li>
+          <li><a href="/partners/">Become a partner</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer__h">Company</h2>
+        <ul>
+          <li><a href="/company/about/">About</a></li>
+          <li><a href="/company/careers/">Careers</a></li>
+          <li><a href="/company/contact/">Contact</a></li>
+          <li><a href="/company/government/">Government procurement</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer__h">Trust</h2>
+        <ul>
+          <li><a href="/resources/security/">Security</a></li>
+          <li><a href="https://octavebytes.github.io/Hubspot/" rel="noopener">Docs</a></li>
+                    <li><a href="/legal/privacy/">Privacy</a></li>
+          <li><a href="/legal/cookies/">Cookies</a></li>
+          <li><a href="/legal/terms/">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__offices" aria-label="Offices">
+      <p><strong>USA</strong> · 10808 Capri Dr, McKinney, TX 75072</p>
+      <p><strong>UK</strong> · 128 City Road, London EC1V 2NX</p>
+      <p><strong>Pakistan</strong> · Office 2, 4th Floor, 36 Civic Centre, Garden Town, Lahore</p>
+      <p>Sales <a href="mailto:{{sales_email}}">{{sales_email}}</a> · Support <a href="mailto:{{support_email}}">{{support_email}}</a> · {{phone_us}} · Pakistan {{phone_pk}}</p>
+    </div>
+    <p class="footer__legal">© {{year}} Octavebytes. Amazon Connect, AWS and the AWS logo are trademarks of Amazon.com, Inc. or its affiliates. HubSpot is a trademark of HubSpot, Inc. Microsoft and Dynamics 365 are trademarks of Microsoft.</p>
+  </div>
+</footer>
+
+<div class="consent" id="consent" role="dialog" aria-label="Cookie preferences" hidden>
+  <p><strong>Cookies.</strong> We use essential cookies to run the site. With your permission we also use analytics to see which pages help people. <a href="/legal/cookies/">Cookie policy</a></p>
+  <div class="consent__actions">
+    <button class="btn btn--ghost btn--sm" id="consentDeny">Essential only</button>
+    <button class="btn btn--primary btn--sm" id="consentAllow">Allow analytics</button>
+  </div>
+</div>
+
+<script src="/assets/js/site.js?v={{js_v}}" defer></script>
+</body>
+</html>

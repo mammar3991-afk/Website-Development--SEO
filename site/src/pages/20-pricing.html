@@ -1,0 +1,92 @@
+---
+hidden: true
+url: /pricing/
+crumb: Plans
+title: Plans and Quotes for Amazon Connect Products | Octavebytes
+description: Pay per seat for the HubSpot and Dynamics 365 connectors, with a 7-day free trial. What is included, what you pay AWS, and how to buy through AWS Marketplace.
+---
+<section class="hero hero--plain">
+  <div class="container">
+    <p class="eyebrow">Plans</p>
+    <h1>Plans and quotes</h1>
+    <p class="lead">Our connectors are priced per seat, with plans tailored to your team. Services are quoted per project. You pay Octavebytes for the product or project and AWS for Amazon Connect.</p>
+    <div class="btn-row">
+      <a class="btn btn--primary" href="/start-trial/" data-cta="pricing-trial">Start a {{var:trial_days}}-day free trial</a>
+      <a class="btn btn--ghost" href="{{var:booking_url}}" rel="noopener" data-cta="pricing-book">Book a 30-minute call</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="conn-h">
+  <div class="container">
+    <div class="section__head"><h2 id="conn-h">The connector</h2><p class="lead">Pay per seat for HubSpot or Dynamics 365, and use as much as you like. Tell us your team size and we send a quote the same day.</p></div>
+    {{include:plans}}
+    <div class="table-wrap" style="margin-top:2rem"><table>
+      <thead><tr><th scope="col" colspan="2">What's included with every seat</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Softphone in HubSpot or Dynamics 365</th><td class="y"><span>Included</span></td></tr>
+        <tr><th scope="row">Screen-pop (contact, company, deal, ticket)</th><td class="y"><span>Included</span></td></tr>
+        <tr><th scope="row">Click-to-dial</th><td class="y"><span>Included</span></td></tr>
+        <tr><th scope="row">Automatic call logging and recordings</th><td class="y"><span>Included</span></td></tr>
+        <tr><th scope="row">Pause and resume recording</th><td class="y"><span>Included</span></td></tr>
+        <tr><th scope="row">Wrap-up codes</th><td class="y"><span>Included</span></td></tr>
+        <tr><th scope="row">SMS</th><td class="y"><span>Included</span></td></tr>
+        <tr><th scope="row">Single sign-on with Google Workspace</th><td class="y"><span>Included</span></td></tr>
+        <tr><th scope="row">WhatsApp, social channels, transcripts and AI summaries</th><td>Available as the <a href="/products/call-intelligence/">call intelligence add-on</a></td></tr>
+        <tr><th scope="row">Support</th><td>24/7 support included on paid plans</td></tr>
+      </tbody>
+    </table></div>
+    <div class="btn-row">
+      <a class="btn btn--primary" href="/start-trial/?intent=estimate" data-cta="pricing-estimate">Get a quote for your team</a>
+      <a class="btn btn--ghost" href="{{var:aws_marketplace_url}}" data-marketplace="aws" rel="noopener">Buy on AWS Marketplace</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--surface" id="aws-costs" aria-labelledby="aws-h">
+  <div class="container prose">
+    <h2 id="aws-h">What you pay AWS</h2>
+    <p>The connector runs in your AWS account, so AWS bills you directly for:</p>
+    <ul class="checks">
+      <li><strong>Amazon Connect:</strong> usage-based, per minute of voice and per message. <a href="https://aws.amazon.com/connect/pricing/" rel="noopener">AWS pricing</a> · <a href="https://calculator.aws/" rel="noopener">AWS Pricing Calculator</a></li>
+      <li><strong>Phone numbers and carrier charges</strong></li>
+      <li><strong>Contact Lens</strong>, only if you add call intelligence</li>
+      <li><strong>The connector's hosting resources:</strong> a small instance sized to your team</li>
+    </ul>
+    <p>Not sure what your total will be? We build the estimate with you. <a href="/start-trial/?intent=estimate">Ask for a cost estimate</a>.</p>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="try-h">
+  <div class="container prose">
+    <h2 id="try-h">Try it first</h2>
+    <p>Your <strong>{{var:trial_days}}-day free trial</strong> runs on our hosted environment, so you can test with real agents before anything is deployed in your AWS account.</p>
+    <h2 style="margin-top:2rem">Custom work and other products</h2>
+    <div class="table-wrap"><table>
+      <tbody>
+        <tr><th scope="row">Extra fields, queue logic, integrations</th><td>Fixed estimate or hourly, agreed before we start</td></tr>
+        <tr><th scope="row">Real-time transcription, custom chat behaviour</th><td>Scoped and quoted</td></tr>
+        <tr><th scope="row">Outbound campaigns and voice AI</th><td>Quoted per project. <a href="/solutions/banking-and-regulated-voice/">Banking and regulated voice</a></td></tr>
+      </tbody>
+    </table></div>
+    <h2 style="margin-top:2rem">Buying options</h2>
+    <ul class="checks">
+      <li><strong>AWS Marketplace.</strong> Counts toward your AWS commitment and uses AWS billing. <a href="{{var:aws_marketplace_url}}" data-marketplace="aws" rel="noopener">View our listing</a></li>
+      <li><strong>HubSpot Marketplace.</strong> <a href="{{var:hubspot_marketplace_url}}" data-marketplace="hubspot" rel="noopener">View our listing</a></li>
+      <li><strong>Direct invoice.</strong> Talk to us about billing terms.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section section--surface" aria-labelledby="more-h">
+  <div class="container">
+    <div class="section__head"><h2 id="more-h">Services and our other products</h2></div>
+    <div class="grid grid--3">
+      <div class="card"><h3>Migration, setup and custom builds</h3><p>A fixed estimate after discovery, or an hourly rate for open-ended work. A written statement of work comes first. <a href="/solutions/amazon-connect-services/">See services</a></p></div>
+      <div class="card"><h3>Campaign Manager</h3><p>Quoted to your campaign volume and channels. <a href="/products/campaign-manager/">See the product</a></p></div>
+      <div class="card"><h3>AI Quality Management</h3><p>Coming soon. <a href="/products/ai-quality-management/">Request a demo</a></p></div>
+    </div>
+  </div>
+</section>
+
+{{include:cta-band}}

@@ -1,0 +1,50 @@
+---
+hidden: true
+url: /resources/docs/
+crumb: Docs and requirements
+title: Requirements and Deployment | Octavebytes
+description: What you need to provide and how the Octavebytes connector is deployed into your AWS account. Requirements checklist, CloudFormation and manual options.
+---
+<section class="hero hero--plain">
+  <div class="container">
+    <p class="eyebrow">Docs (preview)</p>
+    <h1>Requirements and deployment</h1>
+    <p class="lead">What to have ready, and how the connector gets into your AWS account. This page summarises the process; the full guides will live on a separate docs site. [[ASSET NEEDED: docs site, for example docs.octavebytes.com]]</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container prose">
+    <h2>Before you start</h2>
+    <ul class="checks">
+      <li><strong>Amazon Connect instance alias and instance ID</strong></li>
+      <li><strong>AWS region</strong> of the instance</li>
+      <li><strong>S3 bucket name</strong> where call recordings are stored</li>
+      <li><strong>HubSpot Super Admin</strong> (or a Dynamics 365 administrator) to approve the connection. They do not need to give Octavebytes access.</li>
+      <li><strong>Someone who can deploy a CloudFormation template</strong> in your AWS account</li>
+      <li>Your CRM object choice: contact-based, company-based or deal-based flow (HubSpot)</li>
+    </ul>
+    <h2>Two ways to deploy</h2>
+    <div class="table-wrap"><table>
+      <thead><tr><th scope="col">Option</th><th scope="col">How it works</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">CloudFormation (recommended)</th><td>We give your AWS team a template. They run it in your account. We check the result with you.</td></tr>
+        <tr><th scope="row">Manual deployment (fallback)</th><td>We give you the step-by-step guide and support you in a remote session.</td></tr>
+      </tbody>
+    </table></div>
+    <h2>The path from trial to production</h2>
+    <ol>
+      <li><strong>Trial on our hosted environment.</strong> Your agents test with real calls.</li>
+      <li><strong>Production in your AWS account.</strong> We deploy a build sized for your team.</li>
+      <li><strong>Single sign-on, transcripts and queue rules</strong> are configured as part of the setup where needed.</li>
+      <li><strong>Go-live check.</strong> An engineer stays with you until agents are taking calls.</li>
+    </ol>
+    <h2>Still to write</h2>
+    <ul>
+      <li>Requirements by CRM (HubSpot, Dynamics 365)</li>
+      <li>Permissions the CloudFormation template creates</li>
+      <li>Troubleshooting: dial button, blank record on arrival, "unknown user" activities</li>
+      <li>FAQ</li>
+    </ul>
+  </div>
+</section>
+{{include:cta-band}}

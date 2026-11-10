@@ -1,0 +1,64 @@
+---
+updated: 2026-11-10
+url: /partners/
+crumb: Partners
+title: Partner with Octavebytes | Refer, Resell or Add Capacity
+description: For AWS partners and integrators: refer customers, resell our Amazon Connect connectors, or add engineers to your delivery team.
+---
+<section class="hero hero--plain">
+  <div class="container">
+    <p class="eyebrow">Partners</p>
+    <h1>Partner with Octavebytes</h1>
+    <p class="lead">We are a specialist Amazon Connect team: services, migrations, bots and AI, and products built on Amazon Connect. Partners work with us in three ways.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <h2 class="sr">Three ways to work with us</h2>
+    <div class="grid grid--3">
+      <div class="card"><h3>1. Refer</h3><p>Send us a customer who needs an Amazon Connect migration, build, bot, CRM connector or regulated-sector voice project. Referral terms are agreed per opportunity.</p></div>
+      <div class="card"><h3>2. Resell</h3><p>Add our connectors and Campaign Manager to your contact center offering. You keep the customer relationship; we handle deployment and support. Reseller terms are agreed per opportunity.</p></div>
+      <div class="card"><h3>3. Add delivery capacity</h3><p>Amazon Connect and AWS engineers who join your project team, remotely, by the hour or by the month. We work under NDA and follow your process, security requirements and tools. Rates are agreed per engagement.</p></div>
+    </div>
+  </div>
+</section>
+<section class="section section--surface">
+  <div class="container two-col">
+    <div>
+      <h2>What partners get</h2>
+      <ul class="checks">
+        <li>A named contact at Octavebytes</li>
+        <li>Sales and technical enablement</li>
+        <li>Access to the trial environment for your customers</li>
+        <li>Co-selling through AWS ACE</li>
+      </ul>
+      <h2 style="margin-top:2rem">What we ask of partners</h2>
+      <ul class="checks">
+        <li>A real customer or opportunity</li>
+        <li>Willingness to sign an NDA and a short agreement</li>
+        <li>Honest handling of AWS and HubSpot terms</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Start the conversation</h2>
+      <form class="form" id="partnerForm" data-form="partner" data-thanks="partnerThanks">
+        <div class="field"><label for="p-company">Company</label><input id="p-company" name="company" type="text" required><span class="err">Enter your company.</span></div>
+        <div class="form__row">
+          <div class="field"><label for="p-name">Your name</label><input id="p-name" name="firstname" type="text" required><span class="err">Enter your name.</span></div>
+          <div class="field"><label for="p-email">Work email</label><input id="p-email" name="email" type="email" required><span class="err">Enter a valid work email.</span></div>
+        </div>
+        <div class="form__row">
+          <div class="field"><label for="p-web">Website</label><input id="p-web" name="company_website" type="text"></div>
+          <div class="field"><label for="p-tier">Your AWS partner tier</label><select id="p-tier" name="aws_partner_tier"><option value="">Select…</option><option>Registered</option><option>Select</option><option>Advanced</option><option>Premier</option><option>Not an AWS partner</option></select></div>
+        </div>
+        <div class="field"><label for="p-type">What are you looking for?</label><select id="p-type" name="partner_type" required><option value="">Select…</option><option>Refer customers</option><option>Resell the connectors</option><option>Add delivery capacity</option><option>Something else</option></select><span class="err">Choose one.</span></div>
+        <div class="field"><label for="p-msg">Message</label><textarea id="p-msg" name="message" rows="3"></textarea></div>
+        <div class="trap" aria-hidden="true"><label>Leave empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+        <div class="field"><label class="opts" style="font-weight:500"><input type="checkbox" name="consent" required> <span>I agree to be contacted about this enquiry. <a href="/legal/privacy/">Privacy policy</a></span></label><span class="err">Please confirm so we can reply.</span></div>
+        <p class="form-error" hidden role="alert" style="color:#B42318;font-weight:600">Something went wrong. Please try again or email <a href="mailto:{{var:sales_email}}">{{var:sales_email}}</a>.</p>
+        <div><button class="btn btn--primary" type="submit" data-cta="partner-submit">Send partner enquiry</button></div>
+      </form>
+      <div class="thanks" id="partnerThanks" hidden><h2>Thanks, <span data-first-name>there</span>.</h2><p>We will reply to your enquiry.</p></div>
+    </div>
+  </div>
+</section>

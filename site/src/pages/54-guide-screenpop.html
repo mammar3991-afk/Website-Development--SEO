@@ -1,0 +1,33 @@
+---
+updated: 2026-11-10
+schema: article
+url: /resources/guides/hubspot-cti-screen-pop-explained/
+crumb: HubSpot CTI screen-pop, explained
+title: HubSpot CTI Screen-Pop, Explained | Octavebytes
+description: What happens when a call arrives in HubSpot through the Octave connector — single match, multiple matches, no match — and what your admin controls.
+---
+<section class="hero hero--plain">
+  <div class="container">
+    <p class="eyebrow">Guide · Product</p>
+    <h1>HubSpot CTI screen-pop, explained</h1>
+    <p class="lead">Screen-pop sounds simple until you ask what happens when a phone number matches three contacts, or none. Here is exactly how the connector handles each case.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container prose">
+    <h2>One match</h2>
+    <p>The connector looks up the caller's number, finds a single matching HubSpot record, and opens it automatically — the contact, or its associated company or deal, depending on how your admin has configured screen-pop.</p>
+    <h2>Multiple matches</h2>
+    <p>If more than one HubSpot record shares that phone number, the agent sees a short picker inside the connector window with each match's name and email. They choose the right one, and the call activity binds to that record for the rest of the interaction.</p>
+    <h2>No match</h2>
+    <p></p>
+    <h2>What your admin controls</h2>
+    <ul class="checks">
+      <li>Whether screen-pop searches contacts, companies or deals</li>
+      <li>The placeholder name used for new, unmatched contacts, if applicable</li>
+      <li>Which HubSpot object types are eligible for the search in the first place</li>
+    </ul>
+    <p>More detail lives in the <a href="{{var:docs_url}}" rel="noopener">deployment and admin configuration guide</a>.</p>
+  </div>
+</section>
+{{include:cta-band}}

@@ -1,0 +1,31 @@
+---
+updated: 2026-11-10
+schema: article
+url: /resources/guides/what-aws-ftr-certification-checks/
+crumb: What AWS FTR certification checks
+title: What AWS FTR Certification Actually Checks | Octavebytes
+description: The HubSpot connector holds AWS Qualified Software status via the Foundational Technical Review. What that review checks, and why it matters to a security team.
+---
+<section class="hero hero--plain">
+  <div class="container">
+    <p class="eyebrow">Guide · Security</p>
+    <h1>What AWS FTR certification actually checks</h1>
+    <p class="lead">The Amazon Connect HubSpot connector holds AWS Qualified Software status, awarded after the AWS Foundational Technical Review (FTR). Here is what that review looks at, and why it matters more than a services badge.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container prose">
+    <h2>What FTR is</h2>
+    <p>The AWS Foundational Technical Review is a security and architecture assessment AWS runs on partner software before granting AWS Qualified Software status. It is not a badge a partner buys — it is a review of the actual product: how it handles data, what AWS services it touches, and whether its architecture follows AWS's own security guidance. Passing it is a listed prerequisite for AWS Qualified Software status on AWS Marketplace, which is where our AWS Marketplace listing states the connector holds this status.</p>
+    <h2>Why this is different from a partner tier</h2>
+    <p>AWS partner tiers (Select, Advanced, Premier) are a check on the company. FTR is a check on the product. When a customer's security team asks "has anyone independently reviewed this software," the answer for the HubSpot connector is that AWS has, as a condition of the AWS Qualified Software listing.</p>
+    <h2>What we can say with confidence today</h2>
+    <ul class="checks">
+      <li>The connector deploys single-tenant, inside the customer's own AWS account, not shared infrastructure between customers — this follows directly from how the CloudFormation deployment works</li>
+      <li>HubSpot access is granted through a HubSpot Super Admin approving the connection, scoped to the objects the connector needs</li>
+    </ul>
+    <h2>What still needs a confirmed answer before we state it as fact</h2>
+    <p>If your team needs more than this page — architecture diagrams, a completed vendor questionnaire, or a call — <a href="/company/contact/">contact us</a> and we will get it to you directly.</p>
+  </div>
+</section>
+{{include:cta-band}}
